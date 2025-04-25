@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg-dark {
+    padding: 15px 0px;
+}
+
+.container-fluid {
+    padding: 0px 25px 0px 100px;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    box-shadow: none;
+}
+
+.collapse>.combine {
+    left: auto;
+    z-index: 1;
+    width: 33.33%;
+    height: 92%;
+    position: absolute;
+    right: 0;
+    top: 75px;
+    background-color: #202f2bed !important;
+    transition: right 0.3s ease;
+}
+
+.element {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+    position: relative;
+    right: 0;
+    transition: right 0.3s ease;
+}
+
+.element a {
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    font-weight: 500;
+}
+
+.sub-element a {
+    font-size: 20px;
+}
+
+.sub-element,
+.sub-element2 {
+    display: none;
+    list-style: none;
+}
+
+ul.sub-element,
+ul .sub-element2 {
+    height: 92vh;
+    width: 106.5%;
+    display: block;
+    position: absolute;
+    background: rgb(52 62 63 / 75%);
+    top: -24px;
+    left: 104.3%;
+    text-align: center;
+    z-index: 10;
+    padding: 75px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+}
+
+ul .sub-element2 {
+    background: rgb(54 51 60 / 85%);
+    top: 0;
+    left: 100.2%;
+    width: 102%;
+}
