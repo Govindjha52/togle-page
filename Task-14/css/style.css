@@ -24,7 +24,7 @@ body {
     box-shadow: none;
 }
 
-.collapse>.combine {
+.combine {
     left: auto;
     z-index: 1;
     width: 33.33%;
